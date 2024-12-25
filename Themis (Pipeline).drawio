@@ -1,9 +1,150 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="PHbDjwj-A14UWEN_VJLI">
-    <mxGraphModel>
+    <mxGraphModel dx="2514" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="450" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7QQIGwTAWK5qwQWUDlO-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-1" value="Input&amp;nbsp;&lt;br&gt;PDF, SCAN Docs,..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-3" value="DATA PREPARATION" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7QQIGwTAWK5qwQWUDlO-4" target="i7QQIGwTAWK5qwQWUDlO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-4" value="Load Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7QQIGwTAWK5qwQWUDlO-5" target="i7QQIGwTAWK5qwQWUDlO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-5" value="Preprocess" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="i7QQIGwTAWK5qwQWUDlO-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="420" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="690" y="420" />
+              <mxPoint x="690" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-6" value="Split the Data&lt;br&gt;(Train/Validate)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i7QQIGwTAWK5qwQWUDlO-15" target="i7QQIGwTAWK5qwQWUDlO-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="310" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-20" value="Training the Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="540" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7QQIGwTAWK5qwQWUDlO-21" target="i7QQIGwTAWK5qwQWUDlO-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-21" value="K-Fold Cross Validation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="800" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-26" value="Tokenize" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="585" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7QQIGwTAWK5qwQWUDlO-27" target="i7QQIGwTAWK5qwQWUDlO-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-27" value="Define Dataset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="680" width="146" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7QQIGwTAWK5qwQWUDlO-28" target="i7QQIGwTAWK5qwQWUDlO-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-28" value="Train Legal-BERT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="900" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-29" value="Evaluation on Validation Set" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="890" width="104" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.506;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i7QQIGwTAWK5qwQWUDlO-26" target="i7QQIGwTAWK5qwQWUDlO-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.523;entryY=-0.105;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i7QQIGwTAWK5qwQWUDlO-37" target="i7QQIGwTAWK5qwQWUDlO-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-37" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="678.8299999999999" width="480" height="142.34" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-38" value="Model Evaluation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="698.8299999999999" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-39" value="Load Fine-Tuned Models" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="740" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-41" value="Evaluate on Test Set" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="740" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-42" value="Report Metrics&lt;div&gt;- Accuracy&lt;/div&gt;&lt;div&gt;- Precision&lt;/div&gt;&lt;div&gt;- F1 Score&lt;/div&gt;&lt;div&gt;- Recall&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="740" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.456;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i7QQIGwTAWK5qwQWUDlO-45" target="i7QQIGwTAWK5qwQWUDlO-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="1079.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-45" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="1000" width="470" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-46" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;Clause Classification and Analysis&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="1000" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7QQIGwTAWK5qwQWUDlO-47" target="i7QQIGwTAWK5qwQWUDlO-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-47" value="Legal-BERT Classification" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7QQIGwTAWK5qwQWUDlO-48" target="i7QQIGwTAWK5qwQWUDlO-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-48" value="GPT-4o Risk Analysis&lt;div&gt;(Bought API)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-49" value="Integrate Results" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-53" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1030" width="450" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-54" value="Real-World Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="1030" width="197.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i7QQIGwTAWK5qwQWUDlO-55" target="i7QQIGwTAWK5qwQWUDlO-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-55" value="Input Clause" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1091.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7QQIGwTAWK5qwQWUDlO-56" target="i7QQIGwTAWK5qwQWUDlO-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-56" value="Classify &amp;amp; Analyse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="506" y="1091.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7QQIGwTAWK5qwQWUDlO-57" value="General Final Output" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1091.5" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
